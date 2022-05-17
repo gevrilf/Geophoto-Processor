@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
     $fileExt2 = explode('.', $fileName2);
     $fileActualExt2 = strtolower(end($fileExt2));    
 
-    //variable to see if it is .csv extension file
+    //variable to see if it is .jpg or .jpeg extension file
     $allowed = array('jpeg','.jpg', '.jpeg', 'jpg');
 
 
